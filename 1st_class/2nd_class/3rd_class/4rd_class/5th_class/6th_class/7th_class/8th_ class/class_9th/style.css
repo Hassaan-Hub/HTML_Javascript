@@ -1,0 +1,30 @@
+.main{
+    border: 2px solid gray;
+    width: 200px;
+    margin: auto;
+}
+
+.result{
+    width: 192px;
+    background-color: gray;
+    color: #fff;
+}
+
+.clearBtn{
+    width: 200px;
+    margin-top: 10px;
+    background-color: gray;
+}
+
+.btn{
+    background-color: gray;
+    width: 45px;
+    margin: 1px;
+}
+
+.halfBtn{
+    background-color: gray;
+    width: 96px;
+    margin: 1px;    
+    margin-top: 5px;
+}
