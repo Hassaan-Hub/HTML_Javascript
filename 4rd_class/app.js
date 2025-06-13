@@ -9,10 +9,10 @@
 
 
 //  intalize; condition; increment/decrement;
-for(var i =5; // intalize
-    i < 5; // condition jase ke agr true hogi to agye block {} of code chale ga nai to false me close krde ga(loop band hoga)
+for(var i =6; // intalize
+    i >9; // condition jase ke agr true hogi to agye block {} of code chale ga nai to false me close krde ga(loop band hoga)
     i++ // increment/decrement
-    ){
+){
     // alert("Hello world")
     console.log(++i)
     

@@ -152,21 +152,21 @@
 
 
 
-// students.pop()                           pop remove end value
+// students.pop()                           //pop remove end value
 
-// students.push("kaif","naseer")           push value to end
+// students.push("kaif","naseer")           //push value to end
 
-// students.shift()                         shift remove element from start
+// students.shift()                         //shift remove element from start
 
-// students.unshift("kaif","naseer")        unshift add element at start
+// students.unshift("kaif","naseer")        //unshift add element at start
 
 // students.splice(1,2)
 
 
-var students = ["hassaan","majid","sharo","kaif","naseer"]
+// var students = ["hassaan","majid","sharo","kaif","naseer"]
 
-var copystudents = students.slice(1,4)
+// var copystudents = students.slice(1,3)
 
-console.log(students);
+// console.log(students);
 
-console.log(copystudents)
+// console.log(copystudents)

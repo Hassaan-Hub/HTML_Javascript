@@ -1,8 +1,8 @@
 var arr = ["cat","dog","tiger","lion"];
-console.log(arr[2])
+// console.log(arr[2])
 
 var arr1 = new Array ("Hassaan","Sharo","Majid");
-console.log(arr1);
+// console.log(arr1);
 
 arr[4] = "elephent";
 console.log(arr);
@@ -18,14 +18,14 @@ console.log(arr);
 
 
 //  intalize; condition; increment/decrement;
-for(var i =5; // intalize
-    i < 5; // condition jase ke agr true hogi to agye block {} of code chale ga nai to false me close krde ga(loop band hoga)
-    i++ // increment/decrement
-    ){
+// for(var i =5; // intalize
+    // i < 5; // condition jase ke agr true hogi to agye block {} of code chale ga nai to false me close krde ga(loop band hoga)
+    // i++ // increment/decrement
+    // ){
     // alert("Hello world")
-    console.log(++i)
+    // console.log(++i)
     
-}
+// }
 
 
 
