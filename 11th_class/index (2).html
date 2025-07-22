@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: black;
+    }
+
+    .container {
+        /* background-color: black; */
+        text-align: center;
+        margin-top: 250px;
+    }
+    h1{
+        color: #ffffff;
+        font-size: 45px;
+        text-align: center;
+    }
+    .btn{
+        display: inline-block;
+        width: 80px;
+        /* padding: 3px 35px 3px 35px; */
+    }
+    .btn1{
+        font-size: x-large;
+        margin-top: 10px;
+    }
+    .sami-container2{
+        margin-left: 7px;
+        
+    }
+</style>
+<body>
+    <h1>Stop Watch</h1>
+    <div class="container">
+        <div class="sami-container1">
+            <h1 class="btn" id="min">0</h1>
+            <h1 class="btn" id="sec">0</h1>
+            <h1 class="btn" id="msec">0</h1>
+        </div>
+        <div class="sami-container2">
+            <button class="btn1" onclick="start()">Start</button>
+            <button class="btn1" onclick="stop()">Pause</button>
+            <button class="btn1" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

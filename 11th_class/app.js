@@ -67,15 +67,5 @@
 
 
 
-
-
-
 var a = document.getElementById('pappa')
 console.log(a.childNodes[0].nodeType)
-
-
-
-
-
-
-
