@@ -1,39 +1,39 @@
-// function timer(){
-//     console.log("seconds");
+function timer(){
+    console.log("seconds");
 
-// }
-// setInterval(timer,500)
+}
+setInterval(timer,500)
 
-// function timeOut(){
-//     console.log("time");
+function timeOut(){
+    console.log("time");
 
-// }
+}
 
-// setTimeout(timeOut,3000)
+setTimeout(timeOut,3000)
 
 
-// var count = 0;
+var count = 0;
 
-// function timer(){
-//     count++
-//     console.log(count);
+function timer(){
+    count++
+    console.log(count);
 
-// }
-// setInterval(timer,1000)
+}
+setInterval(timer,1000)
 
-// var count = 0;
-// var interval;
-// function timer(){
-//     count++
-//     console.log(count);
+var count = 0;
+var interval;
+function timer(){
+    count++
+    console.log(count);
 
-// }
+}
 
-// interval = setInterval(timer, 1000)
+interval = setInterval(timer, 1000)
 
-// setInterval(function(){
-//     clearInterval(interval)
-// },5000)
+setInterval(function(){
+    clearInterval(interval)
+},5000)
 
 
 var min = 0;
