@@ -1,0 +1,30 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+.quiz{
+    display: grid;
+    width: 800px;
+    height: 600px;
+    grid-template-rows: 60px auto;
+}
+.header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+.body{
+    background-color: darkgoldenrod;
+    padding: 50px;
+}
+.option{
+    list-style-type: none;
+    background-color: white;
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+}
+.btn{
+    background-color: white;
+    padding: 15px 20px;
+}
