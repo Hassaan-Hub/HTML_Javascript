@@ -1,4 +1,4 @@
-window.onload = function(){
+window.onload = function () {
     show(0)
 }
 var questions = [{
@@ -53,18 +53,14 @@ var questions = [{
 
 ]
 
-function next(){
+var question_count = 0;
+function next() {
     question_count++;
-    if (question_count < questions.length) {
-        show(question_count);
-    } else {
-        alert("Quiz completed!");
-        // Optionally reset or show score
-    }
+    console.log(question_count);
 }
 
 
-function show(e){
+function show(e) {
     var ques = document.getElementById("question")
     ques.innerHTML = `<h1> ${questions[e].question} </h1>
     <ul class="list">
@@ -74,21 +70,23 @@ function show(e){
         <li class="option">${questions[e].options[3]}</li>
     </ul>`
 
-    active(); // ✅ Call here
 }
 
 function active() {
-    var option1 = document.querySelectorAll("li.option");
+    var option1 = document.querySelectorAll("li.option").innerHTML;
 
     for (var i = 0; i < option1.length; i++) {
         option1[i].onclick = function () {
             // Remove previous active class (optional if only one allowed)
             for (var j = 0; j < option1.length; j++) {
-                option1[j].classList.remove("active");
+                if(option1[j].classList.contains("active")){
+                    option1[j].classList.remove("active");
+
+                }
             }
 
             // Add active class to clicked item
-            this.classList.add("active");
+            option1[i].classList.add("active");
         }
     }
 }

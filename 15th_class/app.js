@@ -6,9 +6,17 @@
 // function Student(name,roll){
 //     this.name = name;
 //     this.roll = roll
-//     this.getName = function(){
-//         return this.name;
-//     }
+//     // this.school = "saylani"
+// }
+
+// Student.prototype.school = "saylani"
+
+// var student1 = new Student("hassaan", 123);
+// console.log(student1);
+
+
+// Student.prototype.getName = function(){
+//     return this.name
 // }
 
 // Student.prototype.getName = function(){
@@ -36,14 +44,28 @@
 //     // console.log(stud);               // name
 // }
 
-var student2 = {
-    name: "Ali",
-    roll: 321,
-    school: 'saylani'
+// var student2 = {
+//     name: "Ali",
+//     roll: 321,
+//     school: 'saylani'
+// }
+
+// console.log(student2);       // pura autha deta hai
+
+// console.log("constructor" in student2);      // prototype ke ander wala
+
+// console.log(student2.hasOwnProperty("constructor"));     // student2 ke ander keye ko dekhta hai
+
+
+
+
+function saveData(){
+    var name = document.getElementById("name");
+    var roll = document.getElementById("roll");
+
+    var student = {
+        name: name.value,
+        roll: roll.value,
+    }
+    console.log(student);
 }
-
-console.log(student2);
-
-console.log("constructor" in student2);
-
-console.log(student2.hasOwnProperty("roll"));
