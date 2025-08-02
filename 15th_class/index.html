@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-analytics.js";
+        const firebaseConfig = {
+          apiKey: "AIzaSyAoHd843SAwl95VPiXsI2A4H9FeDeJJkf4",
+          authDomain: "itsmyfir.firebaseapp.com",
+          databaseURL: "https://itsmyfir-default-rtdb.firebaseio.com",
+          projectId: "itsmyfir",
+          storageBucket: "itsmyfir.firebasestorage.app",
+          messagingSenderId: "560373891338",
+          appId: "1:560373891338:web:cbd98a0408244fca59faf3",
+          measurementId: "G-11XPM9FG17"
+        };
+    
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </head>
 <body>
     

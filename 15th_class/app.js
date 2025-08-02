@@ -65,7 +65,8 @@ function saveData(){
 
     var student = {
         name: name.value,
-        roll: roll.value,
+        roll: roll.value
     }
-    console.log(student);
+    firebase.database().ref('student').set(student)
 }
+
