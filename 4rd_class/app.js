@@ -27,7 +27,7 @@ alert("Hello World!")
 alert("Hello World!")
 
 
-document.write("2" + "X" + "1" + "=" + 2*1 "<br>");
+document.write("2" + "X" + "1" + "=" + 2*1, "<br>");
 document.write("2" + "X" + "1" + "=" + 2*2);
 document.write("2" + "X" + "1" + "=" + 2*3);
 document.write("2" + "X" + "1" + "=" + 2*4);
