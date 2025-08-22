@@ -236,3 +236,27 @@
 // function handleError(error) {
 //     console.log("Error:", error);
 // }
+
+
+
+
+var promise = new Promise(function(resolve,reject){
+    if(true){
+        setTimeout(() =>{
+            resolve("it's resolve")
+        },1000)
+    }else{
+        reject("Reject")
+    }
+})
+
+console.log(promise);
+
+promise.then(function(data){
+    console.log("Resolve==>", data);
+})
+
+.catch(function(error){
+    console.log("Error==>",error);
+})
+
